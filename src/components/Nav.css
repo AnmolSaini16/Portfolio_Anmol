@@ -90,7 +90,7 @@
 
 @media only screen and (max-width: 390px) {
     .nav__items > p {
-        padding-right: 14px;
+        padding-right: 12px;
     }  
     .nav__items {
         width: 320px;
