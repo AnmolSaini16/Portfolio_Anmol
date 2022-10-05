@@ -2,7 +2,7 @@
     margin: 0 150px;
     margin-top: 60px;
     background-color: #2020207e;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 28px, rgba(0, 0, 0, 0.22) 0px 5px 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin-bottom: 30px;
     padding: 40px 0;
     padding-bottom: 50px;
@@ -78,7 +78,7 @@
 
 
 @media only screen and (max-width: 960px) {
-    #about {
+    .about {
         margin: 0 100px;
         margin-top: 50px;
     }
@@ -95,20 +95,22 @@
     .about__content__body_text {
         margin: unset;
     }
-    #about {
+    .about {
         margin: 0 80px;
         margin-top: 30px;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    #about {
+    .about {
         margin: 0 50px;
+        margin-top: 40px;
     }
 }
 
 @media only screen and (max-width: 450px) {
-    #about {
+    .about {
         margin: 0 20px;
+        margin-top: 40px;
     }
 }

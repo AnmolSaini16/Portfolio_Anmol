@@ -19,7 +19,7 @@ const About = () => {
   };
 
   return (
-    <div className={`about ${!dark ? "about__light" : ""}`} id="about">
+    <div className={`about ${!dark ? "about__light" : ""}`}>
       <div className="about__content">
         <h1 className={`about__heading ${!dark ? "heading__light" : ""}`}>
           About Me

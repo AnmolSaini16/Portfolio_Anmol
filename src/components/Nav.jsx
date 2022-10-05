@@ -12,7 +12,7 @@ const Nav = () => {
     if (window.scrollY > 100) {
       document.getElementById(
         "nav__items"
-      ).style.cssText = `background-color : #202020f3; box-shadow: rgba(0, 0, 0, 0.19) 0px 0px 20px, rgba(0, 0, 0, 0.23) 0px 0px 6px;`;
+      ).style.cssText = `background-color : #2B2B2B; box-shadow: rgba(0, 0, 0, 0.19) 0px 0px 20px, rgba(0, 0, 0, 0.23) 0px 0px 6px;`;
     } else {
       document.getElementById(
         "nav__items"
@@ -38,35 +38,23 @@ const Nav = () => {
         id="nav__items"
       >
         <p>
-          <a
-            className={`nav__item ${dark ? "" : "nav__item__light"}`}
-            href="#about"
-          >
+          <a className="nav__item" href="#about">
             About Me
           </a>
         </p>
 
         <p>
-          <a
-            className={`nav__item ${dark ? "" : "nav__item__light"}`}
-            href="#projects"
-          >
+          <a className="nav__item" href="#projects">
             Projects
           </a>
         </p>
         <p>
-          <a
-            className={`nav__item ${dark ? "" : "nav__item__light"}`}
-            href="#skills"
-          >
+          <a className="nav__item" href="#skills">
             Skills
           </a>
         </p>
         <p>
-          <a
-            className={`nav__item ${dark ? "" : "nav__item__light"}`}
-            href="#contact"
-          >
+          <a className="nav__item" href="#contact">
             Contact
           </a>
         </p>

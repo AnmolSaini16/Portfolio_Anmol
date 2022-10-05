@@ -13,26 +13,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 430px;
+    width: 450px;
     padding: 10px 12px;
     border-radius: 999px;
     transition: 0.4s all;
+    color: #A8A89A;
+}
+.nav__items__light {
     color: whitesmoke;
 }
-
-.nav__items__light {
-    background-color: rgba(247, 248, 250, 0.9) !important;
-}
-
 .nav__items > p {
     padding-right: 30px;
 }
 .nav__item  {
     position: relative;
     text-decoration: none;
-    font-weight: 500;
-    font-size: 1rem;;
-    color: whitesmoke;
+    font-weight: 700;
+    font-size: 1rem;
+    color: inherit;
     transition: 0.5s;
     text-transform: uppercase;
 }
@@ -54,10 +52,6 @@
 .nav__item:hover::after {
     transform: scaleX(1);
     transform-origin: left
-}
-
-.nav__item__light {
-    color: black;
 }
 
 
